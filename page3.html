@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pictures</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		#whole_page{
+			background-color: #c7d4d9;
+			padding: 20px;
+			font-family: Arial, san-serif;
+			color: #007bff;
+		}
+		#img1{
+                padding: 20px;
+            }
+    	@media (min-width: 700px) {
+			body {
+		    	font-size: 16px;
+		  	}
+		  	#content{
+		  		font-size: 14px;
+		  	}
+		}
+		@media (max-width: 699px) {
+			body {
+		    	font-size: 12px;
+			}
+			#content{
+		  		font-size: 10px;
+		  	}
+		}
+
+	</style>
+</head>
+<body>
+	<div id="whole_page">
+		<nav class="nav nav-pills nav-justified">
+		  <a class="nav-item nav-link" href="index.html">Home</a>
+		  <a class="nav-item nav-link" href="page2.html">Hobbies</a>
+		  <a class="nav-item nav-link active" href="page3.html">Pictures</a>
+		  <a class="nav-item nav-link" href="page4.html">Contact</a>
+		</nav>
+		<div id="content">
+			<div class="container">
+				<div class="row">
+					<div id="img1" class="col" class="pic"><img src="IMG1.jpg" alt="cat" width="100%" ></div>
+					<div id="img1" class="col"><img src="IMG2.jpg" alt="cat" width="100%" ></div>
+					<div class="w-100"></div>
+					<div id="img1" class="col"><img src="IMG3.jpg" alt="cat" width="100%" ></div>
+					<div id="img1" class="col"><img src="IMG4.jpg" alt="cat" width="100%" ></div>
+				</div>
+			</div>
+		</div>
+		<nav aria-label="...">
+		  <ul class="pagination">
+		  	<li class="page-item">
+		      <a class="page-link" href="page2.html">Previous</a>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+		    <li class="page-item"><a class="page-link" href="page2.html">2</a></li>
+		    <li class="page-item active" aria-current="page">
+		      <span class="page-link">
+		        3
+		        <span class="sr-only">(current)</span>
+		      </span>
+		    </li>
+		    <li class="page-item"><a class="page-link" href="page4.html">4</a></li>
+		    <li class="page-item">
+		      <a class="page-link" href="page4.html">Next</a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+</body>
+</html>

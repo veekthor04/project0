@@ -1,0 +1,37 @@
+#whole_page{
+	background-color: #c7d4d9;
+	padding: 20px;
+	font-family: Arial, san-serif;
+	color: #007bff;
+}
+@media (min-width: 700px) {
+			body {
+		    	font-size: 16px;
+		  	}
+		  	#content{
+		  		font-size: 14px;
+		  	}
+}
+@media (max-width: 699px) {
+			body {
+		    	font-size: 12px;
+			}
+			#content{
+		  		font-size: 10px;
+          	}
+}
+table {
+	border: 2px solid;
+	border-collapse: collapse;
+	margin: 20px;
+	width: 300px;
+	
+	th{
+		border: 2px solid;
+		padding: 3px;
+	}
+	td{
+		border: 1px solid;
+		padding: 3px;
+	}	
+}
