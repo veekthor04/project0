@@ -39,5 +39,12 @@
 h1 {
   font-size: 20px;
 }
+button:hover {
+      background-color: pink;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}
 
 /*# sourceMappingURL=index.css.map */
